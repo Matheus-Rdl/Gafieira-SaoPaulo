@@ -3,34 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Gafieira - São Paulo</title>
 </head>
 <body>
-
+    <div class="principal-menu">
+        <button id="menu-toggle" class="menu-toggle">☰</button>
+        <h1 class="title">Gafieira São Paulo</h1>
+    </div>
     <header>
-        <h1>Gafieira São Paulo</h1>
-        <h2>Pety e Vanesinha</h2>
-        <p>Prepare-se para mudar para melhor, dance!</p>
+        <h2 class="title-names">Pety e Vanesinha</h2>
+        <p class="tagline">Prepare-se para mudar para melhor, dance!</p>
+        <div>
+            <div class="paper-1"></div>
+            <div class="paper-2"></div>
+            <div class="paper-3"></div>
+            <div class="paper-4"></div>
+            <div class="paper-5"></div>
+        </div>
     </header>
+
+    <div class="div-nav">
+        <nav id="header-nav" class="header-nav">
+            <button id="menu-close" class="menu-close">✖</button>
+            <a href="">Home</a>
+            <p>|</p>
+            <a href="#">Sobre nós</a>
+            <p>|</p>
+            <a href="#">Metodologia</a>
+            <p>|</p>
+            <a href="#">Grupos</a>
+            <p>|</p>
+            <a href="#">Sobre o samba</a>
+            <p>|</p>
+            <a href="#">Depoimentos</a>
+            <p>|</p>
+            <a href="#">Agenda</a>
+            <p>|</p>
+            <a href="#">Projetos</a>
+            <p>|</p>
+            <a href="#">Contato</a>
+        </nav>
+    </div> 
 
     <main>
         <section class="apresentation">
-            <h2>A vida precisa de movimento mexa-se!</h2>
+            <h2 class="apresentation-title">A vida precisa de movimento mexa-se!</h2>
             <p>Olá e bem-vinda(o) ao nosso cantinho dedicado ao Samba de Gafieira! Aqui, a gente acredita que a vida é muito mais gostosa quando está em movimento. E qual é o melhor jeito de se mexer se não dançando um bom samba?</p>
             <p>Quando dançamos, somos levados a prestar atenção em como nosso corpo se movimenta, em cada gesto e em cada respiração. Essa conexão nos permite conhecer melhor nossas limitações e potencialidades, revelando uma nova forma de ver e sentir a nós mesmos. </p>
             <p>Além disso, a dança é uma forma de despertar sua vitalidade, melhorar seu humor e liberar tensões. Ao se permitir dançar, você está cuidando do corpo e da mente, encontrando alegria e liberdade em cada movimento. O samba de gafieira é um convite para se mexer, sentir e viver com mais intensidade.</p>
             <p>Então, bora lá? A vida não espera, e o Samba de Gafieira está aqui para transformar o seu jeito de viver e movimentar. Venha sacudir a poeira e dar aquele gingado, porque a vida é muito curta para a gente ficar parada(o)!</p>
-            <a href="#">Nossos planos</a>
+            <a href="">Nossos planos</a>
             <a href="#">Aulas particulares</a>
         </section>
         <section class="about-us">
             <h2>Quem somos nós</h2>
-            <h3>Pety (Thiago Peterson)</h3>
-            <p>A cultura do samba esteve sempre presente nas raízes do Thiago. Ele vive o samba de gafieira desde 2011. Desde então, participou da Cia Veronezi, Cia Boombox e Cia Vanessa Jardim. Também ministrou aulas nos principais congressos de samba de gafieira.</p>
-            <h3>Vanesinha (Vanessa Macedo)</h3>
-            <p>A Vanessa, além de formada em Biologia, é formada em Dança pelo curso técnico da ETEC de Artes (SP). É apaixonada por dança, pelo samba de gafieira e pelo zouk, e está nesse caminho desde 2014. Já fez parte da Cia Vanessa Jardim, Cia Okan e Cia Akros, e foi campeã da Copa Samba, categoria semiprofissional, em 2019 (SP).</p>
-
-            <p>Esses dois artistas fazem um grande trabalho em São Paulo com seus Grupos de Estudos regulares, eventos, projetos e ações em prol do samba. Eles estão em constante estudo e buscando disseminar essa cultura através da dança pelo mundo. Ambos participaram e participam de projetos com a missão de fomentar o samba, como o Projeto SambaSP e a Cia Irmãos de Samba. Juntos fizeram uma turnê pelos principais países difusores do Samba de Gafieira da Europa e também Japão.</p>
+            <div class="about-us-teachers">
+                <div class="about-us-pety">
+                    <h3>Pety (Thiago Peterson)</h3>
+                    <p>A cultura do samba esteve sempre presente nas raízes do Thiago. Ele vive o samba de gafieira desde 2011. Desde então, participou da Cia Veronezi, Cia Boombox e Cia Vanessa Jardim. Também ministrou aulas nos principais congressos de samba de gafieira.</p>
+                </div>
+                <div class="about-us-van">
+                    <h3>Vanesinha (Vanessa Macedo)</h3>
+                    <p>A Vanessa, além de formada em Biologia, é formada em Dança pelo curso técnico da ETEC de Artes (SP). É apaixonada por dança, pelo samba de gafieira e pelo zouk, e está nesse caminho desde 2014. Já fez parte da Cia Vanessa Jardim, Cia Okan e Cia Akros, e foi campeã da Copa Samba, categoria semiprofissional, em 2019 (SP).</p>
+                </div>
+            </div>
+            <div class="about-us-text">
+                <p>Esses dois artistas fazem um grande trabalho em São Paulo com seus Grupos de Estudos regulares, eventos, projetos e ações em prol do samba. Eles estão em constante estudo e buscando disseminar essa cultura através da dança pelo mundo. Ambos participaram e participam de projetos com a missão de fomentar o samba, como o Projeto SambaSP e a Cia Irmãos de Samba. Juntos fizeram uma turnê pelos principais países difusores do Samba de Gafieira da Europa e também Japão.</p>
+            </div>
         </section>
         <section class="methodology">
             <h2>Nossa metodologia</h2>
@@ -40,7 +81,7 @@
         </section>
         <section class="groups">
             <h2>Nossos grupos de estudos</h2>
-            <h3>Todo corpo dança. Venha descobrir o que você é capaz de fazer por você.</h3>
+            <h3 class="groups-subtitle">Todo corpo dança. Venha descobrir o que você é capaz de fazer por você.</h3>
             <ul>
                 <li>
                     <h4>Segunda</h4>
@@ -48,7 +89,7 @@
                     <p>Para quem já é iniciado, e ainda está desenvolvendo o corpo do samba e conhecendo seus repertórios. Uma aula essencial para entender as estruturas.</p>
 
                     <p>21h às 22h15 - Gafieira II</p>
-                    <p>Nesse grupo, desenvolvemos repertório, além de aperfeiçoarmos as estruturas: conexão, postura ,musicalidade.</p>
+                    <p>Nesse grupo, desenvolvemos repertório, além de aperfeiçoarmos as estruturas: conexão, postura, musicalidade.</p>
                 </li>
                 <li>
                     <h4>Terça</h4>
@@ -90,7 +131,6 @@
             <p>É uma dança vibrante e cheia de energia e pode ser adaptada a diferentes tipos de músicas e ritmos, sendo uma forma muito flexível e contemporânea de dança.</p>
             <p>O Samba Funkeado não só oferece uma maneira divertida e enérgica de se expressar, mas também contribui significativamente para o desenvolvimento da consciência e controle corporal.</p>
         </section>
-
         <section class="testimonials">
             <h2>Depoimentos</h2>
             <ul>
@@ -112,7 +152,6 @@
                 </li>
             </ul>     
         </section>
-        
         <section class="agenda">
             <h2>Agenda</h2>
         </section>
@@ -126,6 +165,9 @@
 
     <footer>
     </footer>
+
+    <script src="scripts/menu-nav.js"></script>
+    <script src="scripts/header-menu.js"></script>
     
 </body>
 </html>
