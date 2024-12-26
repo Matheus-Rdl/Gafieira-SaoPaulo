@@ -5,9 +5,32 @@
 :root{
     --header-white: #F7F7F7;
     --white:  #F2F2F2;
+    --black: #000000;
+    --dark-green: #28774D;
+    --light-green: #1eb483; 
+    --dark-orange: #f15700;
+    --dark-wine: #800100;
+    --red: #ff0000;
+
+    --apresentation-bg: rgb(241, 87, 0, 0.5);
+    --about-us-bg: rgb(128, 1, 0, 0.75);
+    --about-us-text-bg: rgb(247, 247, 247, 0.6);
+    --methodology: rgb(30, 180, 131, 0.6);
+    --groups-bg: rgb(97, 189, 98, 0.5);
+    --methodology: rgb(30, 180, 131, 0.6);
+    --history-samba: rgb(30, 180, 131, 0.6);
+    --testimonials-bg: rgb(0, 0, 0, 0.8);
+    --groups-ul-li-text-bg: rgb(247, 247, 247, 0.5);
 
     --font-text: "Montserrat", sans-serif;
     --font-style: "Playwrite AU VIC Guides", serif;
+
+    --title: 2rem;
+    --sub-title: 1.5rem;
+    --text: 1.2rem;
+    --font-h2: 1.75rem;
+    --font-h3: 1.5rem;
+    --font-h4: 1.5rem;
 }
 
 body{
@@ -32,7 +55,7 @@ header{
     justify-content: center;
     gap: 15px;
     width: 100%;
-    height: 70px;
+    height: 40px;
     background-color: var(--header-white);
     box-shadow: 0 1px 1px;
     z-index: 600;
@@ -45,7 +68,7 @@ header{
     margin: 0 50px -80px 0;
     width: 250px;
     height: 250px;
-    background-color: #28774D;
+    background-color: var(--dark-green);
     z-index: -1;
 }
 .paper-2{
@@ -56,7 +79,7 @@ header{
     margin: 0 -300px 0 0;
     width: 500px;
     height: 500px;
-    background-color: #1eb483;
+    background-color: var(--light-green);
     z-index: -1;
 }
 .paper-3{
@@ -68,7 +91,7 @@ header{
     width: 70%;
     margin: 0 -50px -400px 0;
     height: 500px;
-    background-color: #f15700;
+    background-color: var(--dark-orange);
     z-index: -1;
 }
 .paper-4{
@@ -79,7 +102,7 @@ header{
     margin: 0 0 -140px -90px;
     width: 250px;
     height: 250px;
-    background-color: #28774D;
+    background-color: var(--dark-green);
     z-index: -2;
 }
 .paper-5{
@@ -90,36 +113,35 @@ header{
     margin: 0 0 -180px -90px;
     width: 250px;
     height: 250px;
-    background-color: #f15700;
+    background-color: var(--dark-orange);
     z-index: -1;
 }
 .title{
     margin-left: 15px;
-    font-size: 2rem;
+    font-size: var(--title);
 }
 .title-names{
     margin-top: 100px;
     margin-left: 15px;
-    font-size: 2rem;
+    font-size: var(--title);
 }
 .tagline{
-    font-size: 1.5rem;
+    font-size: var(--sub-title);
     margin-left: 15px;
 }
 
 #menu-toggle{
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: none;
     width: 60px;
-    height: 60px;
+    height: 40px;
     border-radius: 30px;
     background-color: var(--header-white);
     z-index: 2000;
     border-style: none;
-    margin-left: 10px;
 }
 #menu-close{
-    font-size: 2rem;
+    font-size: 1.5rem;
     top: 0;
     left: 0;
     border-radius: 30px;
@@ -153,38 +175,39 @@ header{
 }
 .header-nav a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
     font-weight: 600;
 }
 section{
     margin: 40px 10%;
 }
 section h2{
-    font-size: 1.75rem;
+    font-size: var(--font-h2);
     text-align: center;
 }
 section h3{
-    font-size: 1.5rem;
+    font-size: var(--font-h3);
     text-align: center;
 }
 section p {
     margin-top: 10px;
-    font-size: 1.2rem;
+    font-size: var(--text);
 }
 .apresentation{
-    background-color: rgb(241, 87, 0, 0.5);
+    background-color: var(--apresentation-bg);
     margin: 0;
     padding: 80px 5% 40px 5%;
 }
 .apresentation-title{
     margin-bottom: 40px;
     font-family: var(--font-style);
+    font-weight: 550;
 }
 
 .about-us{
     padding: 50px 5% 40px 5%;
     margin: 0;
-    background-color: rgb(128, 1, 0, 0.75);
+    background-color: var(--about-us-bg);
     color: white;
 }
 .about-us-teachers{
@@ -205,28 +228,30 @@ section p {
     margin: 0 auto;
     text-align: center;
     width: 70%;
-    background-color: rgb(247, 247, 247, 0.6);
-    color: black;
+    background-color: var(--about-us-text-bg);
+    color: var(--black);
     padding: 10px 25px;
     border-radius: 15px;
 }
 
 .methodology{
-    background-color: rgb(30, 180, 131, 0.6);
+    background-color: var(--methodology);
     margin: 0;
     padding: 50px 5% 40px 5%;
 }
 
 .groups{
-    background-color: rgb(97, 189, 98, 0.5);
+    background-color: var(--groups-bg);
     margin: 0;
-    padding: 50px 5% 40px 5%;
+    padding: 50px 5% 1px 5%;
 }
 .groups-subtitle{
     margin: 15px 0;
 }
 .groups h4{
-    font-size: 1.5rem;
+    font-size: var(--font-h4);
+    color: var(--dark-orange);
+    font-weight: 600;
 }
 .groups ul{
     margin: 50px 0;
@@ -234,6 +259,73 @@ section p {
     flex-direction: column; 
     gap: 40px;
 }
+.groups ul li p:nth-child(2), .groups ul li p:nth-child(4){
+    font-size: 1.4rem;
+    color: var(--dark-wine);
+}
+
+.groups ul li{
+    background-color: var(--groups-ul-li-text-bg);
+    padding: 20px 5%;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px;
+}
+
+.history-samba{
+    background-color: var(--history-samba);
+    margin: 0;
+    padding: 50px 5% 40px 5%;
+}
+.history-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 30px 0;
+}
+
+.testimonials{
+    background-color: var(--testimonials-bg);
+    margin: 0;
+    padding: 50px 5% 40px 5%;
+    color: var(--white);
+}
+.testimonials-content{
+    margin: 50px 5%;
+}
+.testimonials-content ul{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 50px;
+}
+.testimonials-content ul li{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    gap: 15px;
+}
+.testimonials-text p:last-child{
+    margin-left: 30px;
+    color: var(--red);
+    font-size: 2rem;
+    align-self: flex-end;
+}
+.testimonials-text p:first-child{
+    margin-right: 30px;
+    color: var(--red);
+    text-align: right;
+    font-size: 2rem;
+}
+.testimonials-text{
+    display: flex;
+    align-items: flex-start;
+}
+.testimonials h4{
+    font-size: var(--font-h4);
+    color: var(--red);
+    font-weight: 600;
+    text-align: right;
+}
+
 @media (max-width: 1160px){
     .header-nav{
         width: 90%;
@@ -261,6 +353,13 @@ section p {
     }
     .about-us-pety, .about-us-van{
         width: 40%;
+    }
+    .testimonials-content{
+        margin-inline: 15%;
+    }
+    .testimonials-content ul{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -318,5 +417,8 @@ section p {
     .about-us-text{
         width: 90%;
         padding-inline: 5%;
+    }
+    .testimonials-content{
+        margin-inline: 0;
     }
 }
