@@ -1,14 +1,16 @@
-// Seleciona o botão e o menu
-const menuToggle = document.getElementById('menu-toggle');
-const menuClose = document.getElementById('menu-close');
-const nav = document.getElementById('header-nav')
+const btnClose = document.getElementById('menu-close');
+const btnOpen = document.getElementById('menu-toggle');
+const nav = document.getElementById('nav');
+const shadow = document.getElementById('nav-shadow')
 
-// Adiciona um evento de clique no botão
-menuToggle.addEventListener('click', function() {
-    // Alterna a classe 'nav-open' para mostrar/ocultar o menu
-    nav.classList.add('header-nav-open')
+btnOpen.addEventListener('click', function() {
+    nav.classList.add('nav-open');
+    shadow.style.visibility = 'visible';
+    shadow.style.opacity = '0.6';
 });
 
-menuClose.addEventListener('click', function() {
-    nav.classList.remove('header-nav-open')
+btnClose.addEventListener('click', function() {
+    nav.classList.remove('nav-open');
+    shadow.style.opacity = '0';
 });
+

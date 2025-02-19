@@ -1,0 +1,67 @@
+.about-us{
+    padding: 30px 15% 30px 15%;
+}
+
+.about-us-title{
+    font-family: var(--font-title2);
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 50px;
+    color: #c50000;
+    text-shadow: 1.5px 1.5px black;
+}
+
+.about-us-teachers{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.about-us h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-us p{
+    text-indent: 0;
+}
+
+.about-us-pety, .about-us-van{
+    width: 30%;
+    display: flex;
+}
+
+.about-us-imgs{
+    width: 40%;
+    display: flex;
+}
+.about-us-imgs img{
+    width: 50%;
+}
+
+.about-us-van{
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.about-us-pety div{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-pety img, .about-us-van img{
+    display: none;
+    width: 50%;
+    height: 100%;
+}
+
+.about-us-text{
+    text-align: center;
+    margin: 0 15%;
+    padding: 30px 5%;
+    background-color: rgb(128, 1, 0, 0.3);
+    border: 3px solid var(--dark-wine);
+    border-radius: 20px;
+}
