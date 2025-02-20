@@ -11,6 +11,7 @@ btnOpen.addEventListener('click', function() {
 
 btnClose.addEventListener('click', function() {
     nav.classList.remove('nav-open');
+    shadow.style.visibility = 'hidden';
     shadow.style.opacity = '0';
 });
 

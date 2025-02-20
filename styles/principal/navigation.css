@@ -30,6 +30,7 @@ nav{
 
 .nav-open{
     left: 0;
+
 }
 
 nav button{
@@ -42,11 +43,18 @@ nav button{
 }
 
 nav a{
+    width: fit-content;
     text-decoration: none;
     padding: 15px 15px;
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
+    transition: 1s;
+}
+
+nav a:hover{
+    padding: 35px;
+    font-size: 1.8rem;
 }
 
 #nav-shadow{

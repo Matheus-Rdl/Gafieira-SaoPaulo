@@ -1,5 +1,23 @@
-
 .paper1{
+    width: 200px;
+    height: 400px;
+    background-color: var(--dark-wine);
+    clip-path: circle(50% at 0% 110%);
+    position: absolute;
+    z-index: -9;
+}
+
+.paper2{
+    width: 550px;
+    height: 550px;
+    background-color: var(--dark-wine);
+    clip-path: circle(50% at 100% 30%);
+    position: absolute;
+    right: 0;
+    z-index: -9;
+}
+
+.paper3{
     width: 700px;
     height: 500px;
     background-color: var(--dark-green);
@@ -8,7 +26,7 @@
     right: 0;
     z-index: -9;
 }
-.paper2{
+.paper4{
     width: 500px;
     height: 500px;
     background-color: var(--light-green);
@@ -17,7 +35,7 @@
     right: 0;
     z-index: -9;
 }
-.paper3{
+.paper5{
     width: 700px;
     height: 500px;
     background-color: var(--dark-orange);
@@ -27,7 +45,7 @@
     z-index: -9;
 }
 
-.paper4{
+.paper6{
     width: 300px;
     height: 500px;
     background-color: var(--dark-green);
@@ -36,7 +54,7 @@
     z-index: -9;
 }
   
-.paper5{
+.paper7{
     width: 300px;
     height: 500px;
     background-color: var(--dark-orange);
@@ -105,6 +123,12 @@ header h2{
     margin-top: 15px;
     color: var(--white);
     text-shadow: 2px 2px black;
+    text-decoration: underline;
+    text-decoration-color: var(--dark-wine);
+}
+
+header h2 strong{
+    font-size: 3rem;
 }
 
 .header-box p{

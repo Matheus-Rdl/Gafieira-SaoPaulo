@@ -32,9 +32,15 @@
     text-transform: uppercase;
     font-weight: 800;
 }
-.testimonials-div p{
+.testimonials-text p{
     text-indent: 30px;
     text-align: center;
+}
+
+.testimonials-text p strong{
+    font-family: var(--font-title);
+    color: var(--dark-wine);
+    font-size: 1.5rem;
 }
 
 .testimonials-div:nth-child(1){
@@ -49,7 +55,7 @@
 }
 
 .testimonial-oval-1{
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: rgb(0, 0, 0, 0.3);
     width: 370px;  
     height: 220px; 
     clip-path: ellipse(50% 50% at 50% 50%);
@@ -60,7 +66,7 @@
 }
 
 .testimonial-oval-2{
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: rgb(0, 0, 0, 0.3);
     width: 350px;  
     height: 200px; 
     clip-path: ellipse(50% 50% at 50% 50%);
@@ -71,7 +77,7 @@
 }
 
 .testimonial-oval-3{
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: rgb(0, 0, 0, 0.3);
     width: 330px;  
     height: 230px; 
     clip-path: ellipse(50% 50% at 50% 50%);
@@ -82,14 +88,14 @@
 }
 
 .testimonial-oval-4{
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: rgb(0, 0, 0, 0.3);
     width: 350px;  
     height: 225px; 
     clip-path: ellipse(50% 50% at 50% 50%);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(5deg);
 }
 
 

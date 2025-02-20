@@ -13,7 +13,7 @@
 
     <button id="menu-toggle" class="menu-toggle">☰</button>
     
-    <header>
+    <header id="home">
 
         <div>
             <div class="paper1"></div>
@@ -21,6 +21,8 @@
             <div class="paper3"></div>
             <div class="paper4"></div>
             <div class="paper5"></div>
+            <div class="paper6"></div>
+            <div class="paper7"></div>
         </div>
 
         <img src="" alt="">
@@ -28,7 +30,7 @@
         <img src="" alt="">
 
         <h1>Gafieira São Paulo</h1>
-        <h2>Pety e Vanesinha</h2>
+        <h2>Pety <strong>&</strong> Vanesinha</h2>
     </header>
 
     <div class="header-box">
@@ -43,15 +45,15 @@
     <div class="div-nav">
         <nav class="nav" id="nav">
             <button id="menu-close" class="menu-close">✖</button>
-            <a href="">Home</a>
-            <a href="#">Sobre nós</a>
-            <a href="#">Metodologia</a>
-            <a href="#">Grupos</a>
-            <a href="#">Sobre o samba</a>
-            <a href="#">Depoimentos</a>
-            <a href="#">Agenda</a>
-            <a href="#">Projetos</a>
-            <a href="#">Contato</a>
+            <a href="#home">Home</a>
+            <a href="#about-us">Sobre nós</a>
+            <a href="#methodology">Metodologia</a>
+            <a href="#groups">Grupos</a>
+            <a href="#history">Sobre o samba</a>
+            <a href="#testimonials">Depoimentos</a>
+            <a href="#agenda">Agenda</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contacts">Contato</a>
         </nav>
         <div id="nav-shadow"></div>
     </div>
@@ -90,7 +92,7 @@
             </div>
         </section>
 
-        <section class="about-us">
+        <section class="about-us" id="about-us">
 
             <h2 class="about-us-title">Quem somos nós</h2>
             <div class="about-us-teachers">
@@ -118,7 +120,7 @@
             </div>
         </section>
 
-        <section class="methodology">
+        <section class="methodology" id="methodology">
 
             <div class="methodology-div-gradient-top">
                 <div></div>
@@ -154,7 +156,7 @@
             
         </section>
 
-        <section class="groups">
+        <section class="groups" id="groups">
 
             <h2 class="groups-title">Grupos de estudos</h2>
             <h3 class="groups-subtitle">Todo corpo dança. Venha descobrir o que você é capaz de fazer por você.</h3>
@@ -196,7 +198,7 @@
 
         </section>
 
-        <section class="history">
+        <section class="history" id="history">
 
             <div class="history-div-gradient-top">
                 <div></div>
@@ -208,7 +210,7 @@
                 <div></div>
             </div>
 
-            <h2 class="history-title">História do samba</h2>
+            <h2 class="history-title">Sobre o samba</h2>
 
             <div class="history-content">
                 <div class="history-gafieira">
@@ -254,8 +256,7 @@
 
         </section>
         
-
-        <section class="testimonials">
+        <section class="testimonials" id="testimonials">
 
             <h2 class="testimonials-title">Depoimentos</h2>
 
@@ -295,11 +296,20 @@
 
             </div>
         </section>
+
+        <section class="agenda" id="agenda">
+        </section>
     
+        <section class="projects" id="projects">
+        </section>
+        
+        <section class="contacts" id="contacts">
+        </section>
         
     </main>
 
     <script src="scripts/menu-nav.js"></script>
+    <script src="scripts/scroll-nav.js"></script>
     
 </body>
 </html>
