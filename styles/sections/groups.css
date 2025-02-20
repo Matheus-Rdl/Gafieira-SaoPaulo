@@ -1,5 +1,5 @@
 .groups{
-    padding: 30px 10% 190px 10%;
+    padding: 30px 10% 120px 10%;
 }
 
 .groups-title{
@@ -42,7 +42,7 @@
 }
 
 .groups-content div p{
-    text-indent: 0;
+    text-indent: 30px;
 }
 
 .groups-days{
