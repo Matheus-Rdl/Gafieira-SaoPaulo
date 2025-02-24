@@ -1,5 +1,6 @@
 body{
     background-color: var(--white);
+    font-family: var(--font-text);
 }
 
 section p{

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
     font-family: 'TheBoldFont';
     src: url(../../fonts/TheBoldFont/TheBoldFont.woff2) format('woff2'),
@@ -27,7 +29,9 @@
     --dark-wine: #800100;
     --red: #ff0000;
     --gray: #dddddd; 
+    --orange: #ff7700;
+    
     --font-title: 'TheBoldFont', sans-serif;
     --font-title2: 'BillionDreams', sans-serif;
-    --orange: #ff7700;
+    --font-text: "Montserrat", sans-serif;
 }

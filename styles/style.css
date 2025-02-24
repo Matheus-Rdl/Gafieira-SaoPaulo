@@ -82,8 +82,12 @@
         padding: 0 10% 200px 10%;
     }
 
-    .methodology{
+    .about-us, .methodology{
         padding-inline: 10%;
+    }
+
+    .agenda{
+        padding-inline: 15%;
     }
 
     .apresentation img{
@@ -94,17 +98,7 @@
         width: 89%;
         margin: 0;
     }
-}
-
-@media (max-width: 650px){
-    header h1{
-        font-size: 3rem;
-    }
     
-    header h2{
-        font-size: 2.1rem;
-    }
-
     .about-us-teachers{
         flex-direction: column;
     }
@@ -123,6 +117,21 @@
 
     .about-us-pety img, .about-us-van img{
         display: block;
+    }
+
+}
+
+@media (max-width: 650px){
+    header h1{
+        font-size: 3rem;
+    }
+    
+    header h2{
+        font-size: 2.1rem;
+    }
+    .apresentation img{
+        width: 100%;
+        margin-inline: 0;
     }
 
     .groups{
@@ -158,6 +167,19 @@
     .testimonials-div:nth-child(4){
         margin: 180px 0 0 0;
     } 
+
+    .agenda{
+        padding-inline: 5%;
+    }
+}
+
+@media (max-width: 550px){
+    header img:nth-child(2){
+        display: block;
+    }
+    header img:nth-child(3), header img:nth-child(4){
+        display: none;
+    }
 }
 
 @media (max-width: 450px){
@@ -174,10 +196,6 @@
     }
     .about-us, .methodology, .groups, .history{
         padding-inline: 5%;
-    }
-    .apresentation img{
-        width: 100%;
-        margin-inline: 0;
     }
     .methodology, .history{
         margin-top: 140px;
