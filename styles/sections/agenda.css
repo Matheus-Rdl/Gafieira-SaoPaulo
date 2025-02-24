@@ -23,24 +23,26 @@
     margin-bottom: 50px;
 }
 
-.agenda-content{
+#agenda-list{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.agenda-content div{
+
+
+#agenda-list div{
     background-color: rgb(255, 119, 0, 0.4);
     border-radius: 30px;
     border: 2px dashed var(--orange);
     padding: 30px 50px;
 }
 
-.agenda-content div p{
+#agenda-list div p{
     text-indent: 0;
 }
 
-.agenda-content h5{
+#agenda-list h5{
     font-family: var(--font-title);
     font-size: 2rem;
     font-weight: 800;
@@ -49,7 +51,7 @@
     margin-bottom: 25px;
 }
 
-.agenda-content div strong{
+#agenda-list div strong{
     font-weight: bold;
 }
 
