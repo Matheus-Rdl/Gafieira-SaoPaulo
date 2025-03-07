@@ -40,15 +40,15 @@
   align-items: flex-start;
 }
 
+#agenda-list div:nth-child(even){
+    align-self: flex-end;
+}
+
 #agenda-list div img {
     border-radius: 10px;
     width: 50%;
     margin-inline: 15px;
     min-width: 300px;
-}
-
-#agenda-list div:nth-child(even){
-    align-self: flex-end;
 }
 
 #agenda-list div p {

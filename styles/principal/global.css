@@ -9,6 +9,12 @@ section p {
   text-indent: 60px;
 }
 
+@media (max-width: 550px) {
+  section p {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 450px) {
   section p {
     text-indent: 30px;

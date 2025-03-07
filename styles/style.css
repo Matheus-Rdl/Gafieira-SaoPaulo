@@ -195,13 +195,17 @@
   header img:nth-child(4) {
     display: none;
   }
+
+  #agenda-list{
+    align-items: center;
+  }
   #agenda-list div {
     width: 90%;
     padding: 30px 15px;
   }
 
   #agenda-list div:nth-child(even) {
-    align-self: flex-start;
+    align-self: center;
   }
 
   #agenda-list div img {
