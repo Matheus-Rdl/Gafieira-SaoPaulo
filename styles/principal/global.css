@@ -1,17 +1,16 @@
-body{
-    background-color: var(--white);
-    font-family: var(--font-text);
+body {
+  background-color: var(--white);
+  font-family: var(--font-text);
 }
 
-section p{
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    text-indent: 60px;
+section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-indent: 60px;
 }
 
-@media (max-width: 450px){
-    section p{
-        text-indent: 30px;
-    }
+@media (max-width: 450px) {
+  section p {
+    text-indent: 30px;
+  }
 }
-

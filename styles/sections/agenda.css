@@ -1,57 +1,69 @@
-.agenda{
-    padding: 0 20% 0 20%;
+.agenda {
+  padding: 30px 10% 90px 10%;
 }
 
-.agenda-title{
-    font-family: var(--font-title2);
-    text-align: center;
-    font-size: 5rem;
-    margin-bottom: 50px;
-    color: var(--orange);
-    text-shadow: 1.5px 1.5px black;
+.agenda-title {
+  font-family: var(--font-title2);
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 50px;
+  color: var(--orange);
+  text-shadow: 1.5px 1.5px black;
 }
 
-.agenda-subtitle{
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 25px;
+.agenda-subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
-.agenda h4{
-    font-size: 1.1rem;
-    text-align: center;
-    margin-bottom: 50px;
+.agenda h4 {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-#agenda-list{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+#agenda-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
+#agenda-list div {
+  background-color: rgb(255, 119, 0, 0.4);
+  border-radius: 15px;
+  border: 2px dashed var(--orange);
+  padding: 30px 50px;
+  width: 65%;
 
-
-#agenda-list div{
-    background-color: rgb(255, 119, 0, 0.4);
-    border-radius: 30px;
-    border: 2px dashed var(--orange);
-    padding: 30px 50px;
+  display: flex;
+  align-items: flex-start;
 }
 
-#agenda-list div p{
-    text-indent: 0;
+#agenda-list div img {
+    border-radius: 10px;
+    width: 50%;
+    margin-inline: 15px;
+    min-width: 300px;
 }
 
-#agenda-list h5{
-    font-family: var(--font-title);
-    font-size: 2rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 25px;
+#agenda-list div:nth-child(even){
+    align-self: flex-end;
 }
 
-#agenda-list div strong{
-    font-weight: bold;
+#agenda-list div p {
+  text-indent: 0;
 }
 
+#agenda-list h5 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#agenda-list div strong {
+  font-weight: bold;
+}
