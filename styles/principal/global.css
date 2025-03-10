@@ -3,6 +3,8 @@ body {
   font-family: var(--font-text);
 }
 
+
+
 section p {
   font-size: 1.2rem;
   margin-bottom: 20px;
@@ -13,6 +15,9 @@ section p {
   section p {
     font-size: 1rem;
   }
+  nav a{
+    font-size: 1.2rem;
+}
 }
 
 @media (max-width: 450px) {

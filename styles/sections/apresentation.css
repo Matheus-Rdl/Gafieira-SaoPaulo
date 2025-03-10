@@ -1,101 +1,113 @@
-.apresentation{
-    padding: 0 20% 200px 20%;
-    margin-top: 180px;
-    background-color: rgb(255, 119, 0, 0.7);
-    /*background: linear-gradient(to bottom, rgba(255, 119, 0, 0.6), rgba(100, 32, 27, 0.8));*/
-    min-height: 625px;
-    position: relative;
+.apresentation {
+  padding: 0 20% 200px 20%;
+  margin-top: 180px;
+  background-color: rgb(255, 119, 0, 0.7);
+  /*background: linear-gradient(to bottom, rgba(255, 119, 0, 0.6), rgba(100, 32, 27, 0.8));*/
+  min-height: 625px;
+  position: relative;
 }
 
-.apresentation-div-gradient-top{
-    background-color: var(--white);
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: -180px;
-    z-index: -1;
+.apresentation p {
+  text-align: justify;
 }
 
-.apresentation-div-gradient-top div:nth-child(1),.apresentation-div-gradient-top div:nth-child(2), .apresentation-div-gradient-top div:nth-child(3), .apresentation-div-gradient-top div:nth-child(4), .apresentation-div-gradient-top div:nth-child(5), .apresentation-div-gradient-top div:nth-child(6){
-    width: 100%;
-    height: 30px;
+.apresentation-div-gradient-top {
+  background-color: var(--white);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -180px;
+  z-index: -1;
 }
 
-.apresentation-div-gradient-top div:nth-child(1){
-    background-color: rgb(241, 87, 0)
-}
-.apresentation-div-gradient-top div:nth-child(2){
-    background-color: rgb(241, 87, 0, 0.9)
-}
-.apresentation-div-gradient-top div:nth-child(3){
-    background-color: rgb(255, 119, 0)
-}
-.apresentation-div-gradient-top div:nth-child(4){
-    background-color: rgb(255, 119, 0, 0.9)
-}
-.apresentation-div-gradient-top div:nth-child(5){
-    background-color: rgb(255, 119, 0, 0.8)
-}
-.apresentation-div-gradient-top div:nth-child(6){
-    background-color: rgb(255, 119, 0, 0.7)
+.apresentation-div-gradient-top div:nth-child(1),
+.apresentation-div-gradient-top div:nth-child(2),
+.apresentation-div-gradient-top div:nth-child(3),
+.apresentation-div-gradient-top div:nth-child(4),
+.apresentation-div-gradient-top div:nth-child(5),
+.apresentation-div-gradient-top div:nth-child(6) {
+  width: 100%;
+  height: 30px;
 }
 
-.apresentation-title{
-    font-family: var(--font-title2);
-    text-align: center;
-    font-size: 5rem;
-    margin-bottom: 50px;
-    color: rgb(0, 220, 255);
-    text-shadow: 1.5px 1.5px black;
-    clear: both;
+.apresentation-div-gradient-top div:nth-child(1) {
+  background-color: rgb(241, 87, 0);
+}
+.apresentation-div-gradient-top div:nth-child(2) {
+  background-color: rgb(241, 87, 0, 0.9);
+}
+.apresentation-div-gradient-top div:nth-child(3) {
+  background-color: rgb(255, 119, 0);
+}
+.apresentation-div-gradient-top div:nth-child(4) {
+  background-color: rgb(255, 119, 0, 0.9);
+}
+.apresentation-div-gradient-top div:nth-child(5) {
+  background-color: rgb(255, 119, 0, 0.8);
+}
+.apresentation-div-gradient-top div:nth-child(6) {
+  background-color: rgb(255, 119, 0, 0.7);
 }
 
-.apresentation img{
-    width: 50%;
-    height: auto;
-    border-radius: 15px;
-    margin: 0 20px 20px 0;
-    float: left;
+.apresentation-title {
+  font-family: var(--font-title2);
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 50px;
+  color: rgb(0, 220, 255);
+  text-shadow: 1.5px 1.5px black;
+  clear: both;
 }
 
-.apresentation hr{
-    clear: both;
+.apresentation img {
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+  margin: 0 20px 20px 0;
+  float: left;
 }
 
-.apresentation-div-gradient-bottom{
-    background-color: var(--white);
-    width: 100%;
-    position: absolute;
-    left: 0;
+.apresentation hr {
+  clear: both;
+  visibility: hidden;
 }
 
-.apresentation-div-gradient-bottom div:nth-child(1),.apresentation-div-gradient-bottom div:nth-child(2), .apresentation-div-gradient-bottom div:nth-child(3), .apresentation-div-gradient-bottom div:nth-child(4), .apresentation-div-gradient-bottom div:nth-child(5), .apresentation-div-gradient-bottom div:nth-child(6), .apresentation-div-gradient-bottom div:nth-child(7){
-    width: 100%;
-    height: 30px;
+.apresentation-div-gradient-bottom {
+  background-color: var(--white);
+  width: 100%;
+  position: absolute;
+  left: 0;
 }
 
-.apresentation-div-gradient-bottom div:nth-child(1){
-    background-color: rgb(255, 119, 0, 0.6);
-}
-.apresentation-div-gradient-bottom div:nth-child(2){
-    background-color: rgb(255, 119, 0, 0.5);
-}
-.apresentation-div-gradient-bottom div:nth-child(3){
-    background-color: rgb(255, 119, 0, 0.4);
-}
-.apresentation-div-gradient-bottom div:nth-child(4){
-    background-color: rgb(255, 119, 0, 0.3);
-}
-.apresentation-div-gradient-bottom div:nth-child(5){
-    background-color: rgb(255, 119, 0, 0.2);
-}
-.apresentation-div-gradient-bottom div:nth-child(6){
-    background-color: rgb(255, 119, 0, 0.1);
-}
-.apresentation-div-gradient-bottom div:nth-child(7){
-    background-color: rgb(255, 119, 0, 0);
+.apresentation-div-gradient-bottom div:nth-child(1),
+.apresentation-div-gradient-bottom div:nth-child(2),
+.apresentation-div-gradient-bottom div:nth-child(3),
+.apresentation-div-gradient-bottom div:nth-child(4),
+.apresentation-div-gradient-bottom div:nth-child(5),
+.apresentation-div-gradient-bottom div:nth-child(6),
+.apresentation-div-gradient-bottom div:nth-child(7) {
+  width: 100%;
+  height: 30px;
 }
 
-
-  
-  
+.apresentation-div-gradient-bottom div:nth-child(1) {
+  background-color: rgb(255, 119, 0, 0.6);
+}
+.apresentation-div-gradient-bottom div:nth-child(2) {
+  background-color: rgb(255, 119, 0, 0.5);
+}
+.apresentation-div-gradient-bottom div:nth-child(3) {
+  background-color: rgb(255, 119, 0, 0.4);
+}
+.apresentation-div-gradient-bottom div:nth-child(4) {
+  background-color: rgb(255, 119, 0, 0.3);
+}
+.apresentation-div-gradient-bottom div:nth-child(5) {
+  background-color: rgb(255, 119, 0, 0.2);
+}
+.apresentation-div-gradient-bottom div:nth-child(6) {
+  background-color: rgb(255, 119, 0, 0.1);
+}
+.apresentation-div-gradient-bottom div:nth-child(7) {
+  background-color: rgb(255, 119, 0, 0);
+}

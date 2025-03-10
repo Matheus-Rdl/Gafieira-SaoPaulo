@@ -179,4 +179,9 @@ header h2 strong {
   text-decoration: none;
   font-weight: bold;
   color: black;
+  transition: 0.5s;
+}
+
+.header-btn:hover{
+  background-color: var(--gray);
 }

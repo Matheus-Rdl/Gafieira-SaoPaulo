@@ -1,37 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @font-face {
-    font-family: 'TheBoldFont';
-    src: url(../../fonts/TheBoldFont/TheBoldFont.woff2) format('woff2'),
-         url(../../fonts/TheBoldFont/TheBoldFont.woff) format('woff'),
-         url(../../fonts/TheBoldFont/TheBoldFont.ttf) format('ttf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "TheBoldFont";
+  src: url(../../fonts/TheBoldFont/TheBoldFont.woff2) format("woff2"),
+    url(../../fonts/TheBoldFont/TheBoldFont.woff) format("woff"),
+    url(../../fonts/TheBoldFont/TheBoldFont.ttf) format("ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'BillionDreams';
-    src: url(../../fonts/BillionDreams/BillionDreams.woff2) format('woff2'),
-         url(../../fonts/BillionDreams/BillionDreams.woff) format('woff'),
-         url(../../fonts/BillionDreams/BillionDreams.ttf) format('ttf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "BillionDreams";
+  src: url(../../fonts/BillionDreams/BillionDreams.woff2) format("woff2"),
+    url(../../fonts/BillionDreams/BillionDreams.woff) format("woff"),
+    url(../../fonts/BillionDreams/BillionDreams.ttf) format("ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
-:root{
-    --header-white: #F7F7F7;
-    --white:  #F2F2F2;
-    --black: #000000;
-    --dark-green: rgb(40, 119, 77);
-    --light-green: #1eb483; 
-    --dark-orange: rgb(242, 89, 0);
-    --teste: #ff7700;
-    --dark-wine: #800100;
-    --red: #ff0000;
-    --gray: #dddddd; 
-    --orange: #ff7700;
-    
-    --font-title: 'TheBoldFont', sans-serif;
-    --font-title2: 'BillionDreams', sans-serif;
-    --font-text: "Montserrat", sans-serif;
+:root {
+  --header-white: #f7f7f7;
+  --white: #f2f2f2;
+  --black: #000000;
+  --dark-green: rgb(40, 119, 77);
+  --light-green: #1eb483;
+  --dark-orange: rgb(242, 89, 0);
+  --teste: #ff7700;
+  --dark-wine: #800100;
+  --red: #ff0000;
+  --gray: #dddddd;
+  --orange: #ff7700;
+
+  --font-title: "TheBoldFont", sans-serif;
+  --font-title2: "BillionDreams", sans-serif;
+  --font-text: "Montserrat", sans-serif;
 }

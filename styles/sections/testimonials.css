@@ -1,102 +1,99 @@
-.testimonials{
-    padding: 30px 10% 120px 10%;
-    overflow: hidden;
+.testimonials {
+  padding: 30px 10% 120px 10%;
+  overflow: hidden;
 }
 
-.testimonials-title{
-    font-family: var(--font-title2);
-    text-align: center;
-    font-size: 5rem;
-    margin-bottom: 50px;
-    color: rgb(0, 0, 0);/*#c50000;*/
-    text-shadow: 1.5px 1.5px var(--dark-wine);
+.testimonials-title {
+  font-family: var(--font-title2);
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 50px;
+  color: rgb(0, 0, 0); /*#c50000;*/
+  text-shadow: 1.5px 1.5px var(--dark-wine);
 }
 
-.testimonials-content{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+.testimonials-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
-.testimonials-div{
-    width: 100%;
-    position: relative;
-    z-index: -1;
+.testimonials-div {
+  width: 100%;
+  position: relative;
+  z-index: -1;
 }
 
-.testimonials-div h4{
-    font-family: var(--font-title);
-    font-size: 1.5rem;
-    text-align: center;
-    color: var(--dark-wine);
-    text-transform: uppercase;
-    font-weight: 800;
+.testimonials-div h4 {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--dark-wine);
+  text-transform: uppercase;
+  font-weight: 800;
 }
-.testimonials-text p{
-    text-indent: 30px;
-    text-align: center;
-}
-
-.testimonials-text p strong{
-    font-family: var(--font-title);
-    color: var(--dark-wine);
-    font-size: 1.5rem;
+.testimonials-text p {
+  text-indent: 30px;
+  text-align: center;
 }
 
-.testimonials-div:nth-child(1){
-    margin-top: 170px;
+.testimonials-text p strong {
+  font-family: var(--font-title);
+  color: var(--dark-wine);
+  font-size: 1.5rem;
 }
 
-.testimonials-div:nth-child(3){
-    margin-top: 220px;
-}
-.testimonials-div:nth-child(4){
-    margin-right: 50px;
+.testimonials-div:nth-child(1) {
+  margin-top: 170px;
 }
 
-.testimonial-oval-1{
-    background-color: rgb(0, 0, 0, 0.3);
-    width: 370px;  
-    height: 220px; 
-    clip-path: ellipse(50% 50% at 50% 50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -60%) rotate(25deg);
+.testimonials-div:nth-child(3) {
+  margin-top: 220px;
+}
+.testimonials-div:nth-child(4) {
+  margin-right: 50px;
 }
 
-.testimonial-oval-2{
-    background-color: rgb(0, 0, 0, 0.3);
-    width: 350px;  
-    height: 200px; 
-    clip-path: ellipse(50% 50% at 50% 50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-10deg);
+.testimonial-oval-1 {
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 370px;
+  height: 220px;
+  clip-path: ellipse(50% 50% at 50% 50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%) rotate(25deg);
 }
 
-.testimonial-oval-3{
-    background-color: rgb(0, 0, 0, 0.3);
-    width: 330px;  
-    height: 230px; 
-    clip-path: ellipse(50% 50% at 50% 50%);
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%) rotate(60deg);
+.testimonial-oval-2 {
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 350px;
+  height: 200px;
+  clip-path: ellipse(50% 50% at 50% 50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
 }
 
-.testimonial-oval-4{
-    background-color: rgb(0, 0, 0, 0.3);
-    width: 350px;  
-    height: 225px; 
-    clip-path: ellipse(50% 50% at 50% 50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(5deg);
+.testimonial-oval-3 {
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 330px;
+  height: 230px;
+  clip-path: ellipse(50% 50% at 50% 50%);
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%) rotate(60deg);
 }
 
-
-
+.testimonial-oval-4 {
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 350px;
+  height: 225px;
+  clip-path: ellipse(50% 50% at 50% 50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(5deg);
+}
