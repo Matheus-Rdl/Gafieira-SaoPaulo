@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
 //import { getAnalytics } from "firebase/analytics";
-import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore.js";
+import { getFirestore, collection, getDocs, query, orderBy } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -24,8 +24,9 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const eventsCollection = collection(db, "events");
+const events = query(eventsCollection, orderBy("date_order"));
 
-getDocs(eventsCollection).then((snapshot) =>{
+getDocs(events).then((snapshot) =>{
     snapshot.forEach((doc) => {
         console.log(doc.id, " => ", doc.data());
         //console.log(doc.id, " => ", doc.data().date);

@@ -248,18 +248,6 @@
 }
 
 @media (max-width: 450px) {
-
-  .apresentation-title,
-  .about-us-title,
-  .methodology-title,
-  .groups-title,
-  .history-title,
-  .testimonials-title,
-  .agenda-title,
-  .projects-title,
-  .contacts-title {
-    font-size: 3.5rem;
-  }
   .header-box {
     width: 100%;
     border-radius: 0;
