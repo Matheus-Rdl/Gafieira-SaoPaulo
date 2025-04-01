@@ -32,6 +32,7 @@
 .contacts h3 {
   font-family: var(--font-title);
   font-size: 2rem;
+  text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   color: rgb(0, 220, 255);

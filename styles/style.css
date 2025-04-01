@@ -63,7 +63,6 @@
   }
 
   #agenda-list div {
-    flex-direction: column;
   }
 
   #agenda-list div img {
@@ -109,10 +108,6 @@
     padding: 0 10% 200px 10%;
   }
 
-  .agenda {
-    padding-inline: 15%;
-  }
-
   .apresentation img {
     width: 60%;
     margin-inline: 20%;
@@ -143,6 +138,18 @@
   .about-us-pety img,
   .about-us-van img {
     display: block;
+  }
+}
+
+@media (max-width: 750px) {
+  #agenda-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    overflow-x: auto;
+  }
+  .agenda-button {
+    display: none;
   }
 }
 
@@ -205,10 +212,6 @@
   .testimonials-div:nth-child(4) {
     margin: 180px 0 0 0;
   }
-
-  .agenda {
-    padding-inline: 5%;
-  }
 }
 
 @media (max-width: 550px) {
@@ -224,26 +227,16 @@
     padding: 15px 0px;
   }
 
-  #agenda-list {
-    align-items: center;
-  }
   #agenda-list div {
-    width: 90%;
+    width: 100%;
     padding: 30px 15px;
-  }
-
-  #agenda-list div:nth-child(even) {
-    align-self: center;
+    min-width: 250px;
   }
 
   #agenda-list div img {
     width: 90%;
     margin: 0 auto;
     min-width: 0;
-  }
-
-  #agenda-list span {
-    padding-inline: 10%;
   }
 }
 
